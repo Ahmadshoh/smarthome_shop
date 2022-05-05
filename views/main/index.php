@@ -29,7 +29,6 @@
             <img src="assets/img/phone_2.png" alt="Image" class="phone-2" data-aos="fade-right" data-aos-delay="200">
           </div>
         </div>
-      </div>
     </div>
   </div>
 

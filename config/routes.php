@@ -17,9 +17,20 @@ return [
         'action' => 'register',
     ],
 
-    'view/index' => [
-        'controller' => 'account',
-        'action' => 'register',
+    "products" => [
+        'controller' => "product",
+        'action' => 'index'
     ],
 
+    "products/:id" => [
+        'controller' => "product",
+        'action' => 'show',
+        'dynamic' => true
+    ],
+
+    "products/:id/delete" => [
+        'controller' => "product",
+        'action' => 'delete',
+        "dynamic" => true
+    ],
 ];

@@ -17,7 +17,7 @@ class Db {
         $stmt = $this->db->prepare($sql);
         if (!empty($params)) {
             foreach ($params as $key => $val) {
-                $stmt->bindValue(':'.$key, $val);
+                $stmt->bindValue(':'.$key, $val, PDO::PARAM_INT);
             }
         }
         $stmt->execute();
