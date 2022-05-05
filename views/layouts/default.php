@@ -25,6 +25,7 @@
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/product-card.css" rel="stylesheet">
 
     <!-- =======================================================
     * Template Name: SoftLand - v4.7.0
@@ -47,7 +48,7 @@
     <ul>
         <li><a class="active " href="#home">Home</a></li>
         <li><a href="#features">Features</a></li>
-        <li><a href="#pricing">Products</a></li>
+        <li><a href="#products">Products</a></li>
         <li><a href="#pricing">Pricing</a></li>
         <li><a href="#contact">Contact Us</a></li>
     </ul>

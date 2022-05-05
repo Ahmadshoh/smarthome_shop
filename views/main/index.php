@@ -83,7 +83,13 @@
 </section>
 
 <!-- ======= Products ======= -->
-<section class="section" id="features">
+<!-- <section class="section" id="products"> -->
+<!-- <div class="row justify-content-center text-center mb-5">
+<div class="col-md-5 aos-init aos-animate" data-aos="fade-up">
+  <h2 class="section-heading">Produkte</h2>
+</div>
+</div>
+
 <div class="container d-flex justify-content-between">
   <div class="card" style="width: 18rem;">
     <img class="card-img-top" src="..." alt="Card image cap">
@@ -108,50 +114,159 @@
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       <a href="#" class="btn btn-primary">Kaufen</a>
     </div>
-  </div>
-</div>
-</section>
+  </div> -->
+<!-- </div>
+</section> -->
 
 <!-- ======= Pricing ======= -->
-<section class="section pricing" id="features">
-<div class="container">
+<section class="section">
+      <div class="container">
 
-  <div class="row justify-content-center text-center mb-5">
-    <div class="col-md-5" data-aos="fade-up">
-      <h2 class="section-heading">Für ein intilligentes Zuhause!</h2>
+        <div class="row justify-content-center text-center">
+          <div class="col-md-7 mb-5">
+            <h2 class="section-heading">Choose A Plan</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere illum obcaecati inventore velit laborum earum.</p>
+          </div>
+        </div>
+        <div class="row align-items-stretch">
+
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <div class="pricing h-100 text-center">
+              <span>&nbsp;</span>
+              <h3>Basic</h3>
+              <ul class="list-unstyled">
+                <li>Create up to 5 forms</li>
+                <li>Generate 100 monthly reports</li>
+              </ul>
+              <div class="price-cta">
+                <strong class="price">Free</strong>
+                <p><a href="#" class="btn btn-white">Choose Plan</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <div class="pricing h-100 text-center popular">
+              <span class="popularity">Most Popular</span>
+              <h3>Professional</h3>
+              <ul class="list-unstyled">
+                <li>Create up to 20 forms</li>
+                <li>Generate 2500 monthly reports</li>
+                <li>Manage a team of up to 5 people</li>
+              </ul>
+              <div class="price-cta">
+                <strong class="price">$9.95/month</strong>
+                <p><a href="#" class="btn btn-white">Choose Plan</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <div class="pricing h-100 text-center">
+              <span class="popularity">Best Value</span>
+              <h3>Ultimate</h3>
+              <ul class="list-unstyled">
+                <li>Create up to 20 forms</li>
+                <li>Generate 2500 monthly reports</li>
+                <li>Manage a team of up to 5 people</li>
+              </ul>
+              <div class="price-cta">
+                <strong class="price">$199.95/month</strong>
+                <p><a href="#" class="btn btn-white">Choose Plan</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- ======= Products ======= -->
+<section class="section">
+<div class="container page-wrapper">
+  <div class="page-inner">
+    <div class="row">
+      <div class="el-wrapper">
+        <div class="box-up">
+          <img class="img" src="http://code.slicecrowd.com/labs/4/images/t-shirt.png" alt="">
+          <div class="img-info">
+            <div class="info-inner">
+              <span class="p-name">I feel like Pablo</span>
+              <span class="p-company">Yeezy</span>
+            </div>
+            <div class="a-size">Available sizes : <span class="size">S , M , L , XL</span></div>
+          </div>
+        </div>
+
+        <div class="box-down">
+          <div class="h-bg">
+            <div class="h-bg-inner"></div>
+          </div>
+
+          <a class="cart" href="#">
+            <span class="price">$120</span>
+            <span class="add-to-cart">
+              <span class="txt">Add in cart</span>
+            </span>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
+  <div class="page-inner">
+    <div class="row">
+      <div class="el-wrapper">
+        <div class="box-up">
+          <img class="img" src="http://code.slicecrowd.com/labs/4/images/t-shirt.png" alt="">
+          <div class="img-info">
+            <div class="info-inner">
+              <span class="p-name">I feel like Pablo</span>
+              <span class="p-company">Yeezy</span>
+            </div>
+            <div class="a-size">Available sizes : <span class="size">S , M , L , XL</span></div>
+          </div>
+        </div>
 
-  <div class="row">
-    <div class="col-md-4" data-aos="fade-up" data-aos-delay="">
-      <div class="feature-1 text-center">
-        <div class="wrap-icon icon-1">
-          <i class="bi bi-house-door"></i>
+        <div class="box-down">
+          <div class="h-bg">
+            <div class="h-bg-inner"></div>
+          </div>
+
+          <a class="cart" href="#">
+            <span class="price">$120</span>
+            <span class="add-to-cart">
+              <span class="txt">Add in cart</span>
+            </span>
+          </a>
         </div>
-        <h3 class="mb-3">Explore Your Team</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
-      </div>
-    </div>
-    <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-      <div class="feature-1 text-center">
-        <div class="wrap-icon icon-1">
-          <i class="bi bi-brightness-high"></i>
-        </div>
-        <h3 class="mb-3">Digital Whiteboard</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
-      </div>
-    </div>
-    <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-      <div class="feature-1 text-center">
-        <div class="wrap-icon icon-1">
-          <i class="bi bi-bar-chart"></i>
-        </div>
-        <h3 class="mb-3">Design To Development</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio.</p>
       </div>
     </div>
   </div>
+  <div class="page-inner">
+    <div class="row">
+      <div class="el-wrapper">
+        <div class="box-up">
+          <img class="img" src="http://code.slicecrowd.com/labs/4/images/t-shirt.png" alt="">
+          <div class="img-info">
+            <div class="info-inner">
+              <span class="p-name">I feel like Pablo</span>
+              <span class="p-company">Yeezy</span>
+            </div>
+            <div class="a-size">Available sizes : <span class="size">S , M , L , XL</span></div>
+          </div>
+        </div>
 
+        <div class="box-down">
+          <div class="h-bg">
+            <div class="h-bg-inner"></div>
+          </div>
+
+          <a class="cart" href="#">
+            <span class="price">$120</span>
+            <span class="add-to-cart">
+              <span class="txt">Add in cart</span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 </section>
-
