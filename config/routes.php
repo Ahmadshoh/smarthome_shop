@@ -22,7 +22,6 @@ return [
         'action' => 'index'
     ],
 
-
     "products/:id" => [
         'controller' => "product",
         'action' => 'show',
@@ -31,7 +30,7 @@ return [
 
     "products/:id/delete" => [
         'controller' => "product",
-        'action' => 'delete'
-    ]
-
+        'action' => 'delete',
+        "dynamic" => true
+    ],
 ];
