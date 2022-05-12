@@ -3,8 +3,8 @@ image:
 
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - init: 'mysql -e "ALTER USER ''root''@''localhost'' IDENTIFIED WITH mysql_native_password BY ''abimfb2112'';" && mysql -u root < smarthome_shop.sql'
-
+  #  - init: 'mysql -e "ALTER USER ''root''@''localhost'' IDENTIFIED WITH mysql_native_password BY ''abimfb2112'';" && mysql -u root -p smart_home < smarthome_shop.sql'
+  - command: "php -S 0.0.0.0:8080"
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
   - port: 3000
